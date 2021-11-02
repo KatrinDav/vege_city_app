@@ -1,0 +1,15 @@
+.header_wrapper {
+    width: 100%;
+    height: 80px;
+    box-shadow: 0 5px 15px rgba(82, 156, 88, 0.1);
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    .logo {
+        position: absolute;
+        margin-left: 120px;
+    }
+}
