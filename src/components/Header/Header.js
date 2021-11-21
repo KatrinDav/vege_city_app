@@ -3,13 +3,13 @@ import HeaderCart from './HeaderCart/HeaderCart';
 import styles from './Header.module.scss';
 
 
-const Header = () => {
+const Header = ({ showCart }) => {
     return (
         <div className={styles.header_wrapper}>
             <div className={styles.logo}>
                 <h3 >Vege <br /> City</h3>
             </div>
-            <HeaderCart />
+            <HeaderCart showCart={showCart} />
 
         </div>
     );

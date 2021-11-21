@@ -1,3 +1,5 @@
+@import '../../variables.module';
+
 .wrapper {
     width: 80%;
     margin: 0 auto;
@@ -7,27 +9,35 @@
     justify-content: center;
 
     .title {
-        margin-right: 30px;
+        margin-right: 50px;
         // width: 50%;
         text-align: right;
 
         h1 {
-            font-size: 6.1rem;
-            color: #069c54;
+            font-size: 5.5rem;
+            color: $main_color;
 
             @media(max-width: 1290px) {
                 font-size: 4.5rem;
             }
 
+            @media(max-width: 1083px) {
+                font-size: 3.5rem;
+            }
+
         }
 
         h2 {
-            font-size: 3rem;
+            font-size: 2.5rem;
             margin-top: -30px;
-            color: #393939;
+            color: $title_color;
 
             @media(max-width: 1290px) {
                 font-size: 3rem;
+            }
+
+            @media(max-width: 1083px) {
+                font-size: 2.2rem;
             }
 
         }
@@ -35,7 +45,7 @@
     }
 
     .image {
-        width: 600px;
+        width: 550px;
         height: auto;
         margin-left: 30px;
 
@@ -46,8 +56,10 @@
 
         @media(max-width: 1285px) {
             margin-left: 10px;
+            width: 500px;
 
         }
+
 
 
     }
