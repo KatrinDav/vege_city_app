@@ -1,0 +1,18 @@
+@import '../../variables.module';
+
+
+.section_title {
+    width: 100%;
+    text-align: center;
+}
+
+.subtitle {
+    color: $main_color;
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-bottom: -20px;
+}
+
+.title {
+    font-size: 2.3rem;
+}
