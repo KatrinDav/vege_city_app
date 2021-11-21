@@ -1,0 +1,46 @@
+@import '../../../variables.module.scss';
+
+.item_wrapper {
+    width: 230px;
+    height: 270px;
+    border-radius: .5rem;
+    box-shadow: 0 4px 7px rgba(81, 156, 120, 0.15);
+    padding: 1.5rem;
+    margin: 17px;
+    position: relative;
+    transition: .4s;
+
+    &:hover {
+        box-shadow: 0 17px 17px rgba(81, 145, 113, 0.15);
+    }
+}
+
+.name_wrapper {
+
+    h3 {
+        font-size: 1.4rem;
+        color: $main_color_alt;
+        margin-top: 5px;
+
+    }
+
+
+    .description {
+        color: $text_color;
+        font-size: .95rem;
+    }
+
+    .price {
+        position: absolute;
+        font-weight: 500;
+        bottom: 6rem;
+        color: $main_color_alt;
+
+
+    }
+}
+
+.form {
+    position: absolute;
+    bottom: 3rem;
+}
