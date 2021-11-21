@@ -1,0 +1,16 @@
+@import '../../../variables.module.scss';
+
+.item_content {
+    width: 30%;
+    text-align: center;
+    margin-top: 40px;
+
+    img {
+        width: 64px;
+        height: 64px;
+    }
+
+    p {
+        color: $text_color;
+    }
+}
