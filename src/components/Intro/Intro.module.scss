@@ -4,14 +4,21 @@
     width: 80%;
     margin: 0 auto;
     margin-top: 100px;
-    //background-color: yellow;
     display: flex;
     justify-content: center;
 
+    @media(max-width: 840px) {
+        flex-direction: column;
+    }
+
     .title {
         margin-right: 50px;
-        // width: 50%;
         text-align: right;
+
+        @media(max-width: 840px) {
+            width: 100%;
+            text-align: center;
+        }
 
         h1 {
             font-size: 5.5rem;
@@ -25,10 +32,18 @@
                 font-size: 3.5rem;
             }
 
+            @media(max-width: 963px) {
+                font-size: 3.4rem;
+            }
+
+            @media(max-width: 820px) {
+                font-size: 2.7rem;
+            }
+
         }
 
         h2 {
-            font-size: 2.5rem;
+            font-size: 3.5rem;
             margin-top: -30px;
             color: $title_color;
 
@@ -37,7 +52,15 @@
             }
 
             @media(max-width: 1083px) {
-                font-size: 2.2rem;
+                font-size: 2.4rem;
+            }
+
+            @media(max-width: 963px) {
+                font-size: 2.1rem;
+            }
+
+            @media(max-width: 560px) {
+                font-size: 1.25rem;
             }
 
         }
@@ -60,8 +83,23 @@
 
         }
 
+        @media(max-width: 963px) {
+            margin-left: 10px;
+            width: 50%;
 
+        }
 
+        @media(max-width: 840px) {
+            width: 340px;
+            margin: auto;
+            margin-top: 25px;
+        }
+
+        @media(max-width: 560px) {
+            width: 240px;
+            margin: auto;
+            margin-top: 25px;
+        }
     }
 
 }
