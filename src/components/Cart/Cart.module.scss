@@ -1,0 +1,48 @@
+@import '../../variables.module';
+
+.cart_items {
+    list-style: none;
+    margin: 0;
+    padding: 1rem;
+    max-height: 20rem;
+    overflow: auto;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 1.3rem;
+}
+
+.actions {
+    text-align: right;
+}
+
+.actions button {
+    font: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid $main_color;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+}
+
+.actions button:hover,
+.actions button:active {
+    background-color: $main_color;
+    border-color: $main_color;
+    color: white;
+}
+
+.actions .button__alt {
+    color: $main_color_alt;
+}
+
+.actions .button {
+    background-color: $main_color;
+    color: white;
+}
