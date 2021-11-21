@@ -4,6 +4,11 @@
 .section_title {
     width: 100%;
     text-align: center;
+
+    @media(max-width: 560px) {
+        width: 96%;
+        margin: 0 auto;
+    }
 }
 
 .subtitle {
@@ -15,4 +20,13 @@
 
 .title {
     font-size: 2.3rem;
+
+    @media(max-width: 963px) {
+        font-size: 2rem;
+
+    }
+
+    @media(max-width: 560px) {
+        font-size: 1.7rem;
+    }
 }
