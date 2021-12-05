@@ -48,7 +48,7 @@ const API_URL = 'https://vege-city-app-default-rtdb.europe-west1.firebasedatabas
 const Menu = () => {
     const [menu, setMenu] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
-    const [error, setError] = useState(false);
+    const [error, setError] = useState();
 
     useEffect(() => {
         fetch(API_URL)
@@ -66,6 +66,11 @@ const Menu = () => {
                 }
                 setMenu(loadedMeals);
             })
+            .catch(error => {
+                setError(error)
+                setIsLoading(false)
+                console.log(error.message)
+            })
         setIsLoading(false)
 
     }, []);
@@ -76,6 +81,7 @@ const Menu = () => {
             <Title sbTitle='Menu' title='Specials of the week' />
 
             <section className={styles.menu_container}>
+                {error && <p>Something went wrong: {error.message}!</p>}
                 {isLoading && <Loader />}
                 {menu.map(item => (
                     <ItemMenu
