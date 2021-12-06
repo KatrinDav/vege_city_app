@@ -14,8 +14,6 @@
     }
 }
 
-
-
 .summary {
     width: 10rem;
     display: flex;
@@ -45,25 +43,4 @@
     .actions {
         flex-direction: row;
     }
-}
-
-.cart_item button {
-    font: inherit;
-    font-weight: bold;
-    font-size: 1.25rem;
-    color: $main_color;
-    border: 1px solid $main_color;
-    width: 3rem;
-    text-align: center;
-    border-radius: 6px;
-    background-color: transparent;
-    cursor: pointer;
-    margin-left: 1rem;
-    margin: 0.25rem;
-}
-
-.cart_item button:hover,
-.cart_item button:active {
-    background-color: $main_color;
-    color: white;
 }

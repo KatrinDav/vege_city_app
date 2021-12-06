@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../../Button/Button';
 import styles from './CartItem.module.scss';
 
 const CartItem = ({ price, name, amount, onRemove, onAdd }) => {
@@ -13,8 +14,8 @@ const CartItem = ({ price, name, amount, onRemove, onAdd }) => {
                 </div>
             </div>
             <div className={styles.actions}>
-                <button onClick={onRemove}>−</button>
-                <button onClick={onAdd}>+</button>
+                <Button clickFn={onRemove} type='button' small={true}>−</Button>
+                <Button clickFn={onAdd} type='button' small={true}>+</Button>
             </div>
         </li>
     );

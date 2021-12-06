@@ -1,10 +1,13 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import CartContext from '../../store/cart_context';
 import Modal from '../Modal/Modal';
+import Button from '../Button/Button';
 import CartItem from './CartItem/CartItem';
+import Form from './Form/Form';
 import styles from './Cart.module.scss';
 
 const Cart = ({ hideCart }) => {
+    const [isFormVisible, setIsFormVisible] = useState(false);
     const context = useContext(CartContext);
     const total = context.totalAmount.toFixed(2);
 
@@ -16,6 +19,10 @@ const Cart = ({ hideCart }) => {
 
     const addItemHandler = (item) => {
         context.addItem({ ...item, amount: 1 })
+    }
+
+    const showForm = () => {
+        setIsFormVisible(true)
     }
 
     return (
@@ -35,11 +42,16 @@ const Cart = ({ hideCart }) => {
                 <span>Total Amount</span>
                 <span> $ {total}</span>
             </div>
-            <div className={styles.actions}>
-                <button className={styles.button__alt} onClick={hideCart}>Close</button>
-                {hasItems && <button className={styles.button__alt}>Order</button>}
+            {isFormVisible && <Form onClose={hideCart} />}
 
-            </div>
+            {!isFormVisible && (
+                <div className={styles.actions}>
+                    <Button clickFn={hideCart} type='button'>Close</Button>
+                    {hasItems && <Button clickFn={showForm} type='button'>Order</Button>}
+                </div>
+            )}
+
+
         </Modal>
     );
 }
