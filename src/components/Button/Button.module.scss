@@ -1,0 +1,36 @@
+@import '../../variables.module.scss';
+
+.button {
+    font: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid $main_color;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+    transition: .3s;
+    color: $main_color_alt;
+
+    &:hover,
+    &:active {
+        background-color: $main_color;
+        border-color: $main_color;
+        color: white;
+    }
+}
+
+.alt_button {
+    font: inherit;
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: $main_color;
+    border: 1px solid $main_color;
+    width: 3rem;
+    text-align: center;
+    border-radius: 6px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 1rem;
+    margin: 0.25rem;
+    transition: .3s;
+}
