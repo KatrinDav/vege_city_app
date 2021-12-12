@@ -11,7 +11,7 @@ const About = () => {
             </div>
             <div className={styles.description}>
                 <Title sbTitle='About us' title='We cook the best green food in the city' />
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat amet vero architecto temporibus numquam. Dolore perferendis iure tenetur suscipit distinctio cupiditate esse est omnis. Fuga nulla quia aliquid saepe quae?</p>
+                <p>Vege City is a vegetable restaurant-bar run by people who love health-friendly, fresh food. Opened in 2014, Vege City has been offering a tasty dishes inspired by local seasonal vegetables and global flavors.  Housed in the center of  Modern City Gallery is one of the main center of vegetable cooking.</p>
             </div>
 
 

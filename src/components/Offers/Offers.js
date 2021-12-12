@@ -13,9 +13,9 @@ const Offers = () => {
         <section className={styles.wrapper}>
             <Title sbTitle='Offering' title='Our amazing services' />
             <div className={styles.items_container}>
-                <ItemOffers image={dish} title='Excellent food' description='We offer our clients excellent quality services for many years, with the best and delicious food in the city.' />
-                <ItemOffers image={truck} title='Fast deliver' description='We offer our clients excellent quality services for many years, with the best and delicious food in the city.' />
-                <ItemOffers image={eco} title='Excellent food' description='We offer our clients excellent quality services for many years, with the best and delicious food in the city.' />
+                <ItemOffers image={dish} title='Excellent food' description='We prepare our dishes with the most demanding customers in mind, paying attention to the highest quality ingredients.' />
+                <ItemOffers image={truck} title='Fast deliver' description='For those who cannot reach us, we offer the option of ordering meals with city-wide delivery - every day.' />
+                <ItemOffers image={eco} title='Fresh&Eco' description='We obtain ingredients for our dishes from proven suppliers of organic food with a guarantee of the highest quality.' />
             </div>
 
         </section>
