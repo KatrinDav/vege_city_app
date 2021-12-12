@@ -9,21 +9,46 @@
 
 .control {
     margin-bottom: 0.5rem;
-
-    label {
-        font-weight: bold;
-        margin-bottom: 0.25rem;
-        display: block;
-    }
-
-    input {
-        font: inherit;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        width: 20rem;
-        max-width: 100%;
-    }
 }
+
+.control label {
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+    display: block;
+}
+
+.control input {
+    font: inherit;
+    font-size: .9rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 20rem;
+    max-width: 100%;
+}
+
+
+// .invalid_control {
+//     margin-bottom: 0.5rem;
+
+
+//     label {
+//         font-weight: bold;
+//         margin-bottom: 0.25rem;
+//         display: block;
+//         color: red;
+//     }
+
+//     input {
+//         font: inherit;
+//         border: 1px solid #b40e0e;
+//         border-radius: 4px;
+//         width: 20rem;
+//         max-width: 100%;
+//     }
+
+// }
+
+
 
 
 .actions {
@@ -34,11 +59,24 @@
 }
 
 
-.invalid label {
-    color: $main_color;
-}
+
 
 .invalid input {
     border-color: $main_color;
     background-color: #ffeff1;
+}
+
+
+.invalid input {
+    border: 1px solid #b40e0e;
+    background-color: #fddddd;
+}
+
+.invalid input:focus {
+    border-color: #ff8800;
+    background-color: #fbe8d2;
+}
+
+.error_text {
+    color: #b40e0e;
 }
