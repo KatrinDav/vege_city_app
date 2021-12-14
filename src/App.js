@@ -27,7 +27,6 @@ function App() {
       <Offers />
       <Menu />
       <Footer />
-
     </CartProvider>
   );
 }

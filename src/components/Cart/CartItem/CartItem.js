@@ -9,7 +9,7 @@ const CartItem = ({ price, name, amount, onRemove, onAdd }) => {
             <div >
                 <h2>{name}</h2>
                 <div className={styles.summary}>
-                    <span className={styles.price}>{price}</span>
+                    <span className={styles.price}>$ {price}</span>
                     <span className={styles.amount}>x {amount}</span>
                 </div>
             </div>
