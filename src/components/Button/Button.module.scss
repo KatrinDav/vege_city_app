@@ -33,4 +33,8 @@
     margin-left: 1rem;
     margin: 0.25rem;
     transition: .3s;
+
+    @media(max-width: 767px) {
+        width: 2.3rem;
+    }
 }

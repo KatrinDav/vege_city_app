@@ -24,30 +24,12 @@
     border-radius: 4px;
     width: 20rem;
     max-width: 100%;
+
+    @media(max-width: 530px) {
+        width: 15rem;
+        max-width: 100%;
+    }
 }
-
-
-// .invalid_control {
-//     margin-bottom: 0.5rem;
-
-
-//     label {
-//         font-weight: bold;
-//         margin-bottom: 0.25rem;
-//         display: block;
-//         color: red;
-//     }
-
-//     input {
-//         font: inherit;
-//         border: 1px solid #b40e0e;
-//         border-radius: 4px;
-//         width: 20rem;
-//         max-width: 100%;
-//     }
-
-// }
-
 
 
 
@@ -58,25 +40,16 @@
     margin-top: 2rem;
 }
 
-
-
-
 .invalid input {
-    border-color: $main_color;
-    background-color: #ffeff1;
-}
-
-
-.invalid input {
-    border: 1px solid #b40e0e;
-    background-color: #fddddd;
+    border: 1px solid $red_color;
+    background-color: $light_color;
 }
 
 .invalid input:focus {
-    border-color: #ff8800;
-    background-color: #fbe8d2;
+    border-color: $orange_color;
+    background-color: $light_color;
 }
 
 .error_text {
-    color: #b40e0e;
+    color: $red_color;
 }
