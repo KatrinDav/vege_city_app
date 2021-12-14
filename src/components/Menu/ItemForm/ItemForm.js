@@ -15,7 +15,6 @@ const ItemForm = (props) => {
         if (enteredAmount === 0) {
             return
         }
-        console.log(enteredAmount)
         props.onAddToCart(enteredAmount)
     }
 
@@ -25,9 +24,7 @@ const ItemForm = (props) => {
             <Input
                 label='Amount'
                 type="number"
-
                 input={{
-                    // id: "amount",
                     type: "number",
                     min: '0',
                     max: '5',

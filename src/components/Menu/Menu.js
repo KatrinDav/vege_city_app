@@ -54,7 +54,6 @@ const Menu = () => {
         fetch(API_URL)
             .then(res => res.json())
             .then(data => {
-                console.log(data)
                 const loadedMeals = [];
                 for (const key in data) {
                     loadedMeals.push({
