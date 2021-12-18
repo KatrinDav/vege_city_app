@@ -28,7 +28,6 @@ const ItemForm = (props) => {
                     type: "number",
                     min: '0',
                     max: '5',
-                    amount: '1',
                     value: enteredAmount,
                     amount: enteredAmount,
                     onChange: changeHandle,
