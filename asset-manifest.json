@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/vege_city_app/static/css/main.98508e0d.chunk.css",
+    "main.js": "/vege_city_app/static/js/main.6941e48c.chunk.js",
+    "main.js.map": "/vege_city_app/static/js/main.6941e48c.chunk.js.map",
+    "runtime-main.js": "/vege_city_app/static/js/runtime-main.4dc63486.js",
+    "runtime-main.js.map": "/vege_city_app/static/js/runtime-main.4dc63486.js.map",
+    "static/css/2.7fc9bc2b.chunk.css": "/vege_city_app/static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.9c59468d.chunk.js": "/vege_city_app/static/js/2.9c59468d.chunk.js",
+    "static/js/2.9c59468d.chunk.js.map": "/vege_city_app/static/js/2.9c59468d.chunk.js.map",
+    "static/js/3.4f2d2ae4.chunk.js": "/vege_city_app/static/js/3.4f2d2ae4.chunk.js",
+    "static/js/3.4f2d2ae4.chunk.js.map": "/vege_city_app/static/js/3.4f2d2ae4.chunk.js.map",
+    "index.html": "/vege_city_app/index.html",
+    "static/css/2.7fc9bc2b.chunk.css.map": "/vege_city_app/static/css/2.7fc9bc2b.chunk.css.map",
+    "static/css/main.98508e0d.chunk.css.map": "/vege_city_app/static/css/main.98508e0d.chunk.css.map",
+    "static/js/2.9c59468d.chunk.js.LICENSE.txt": "/vege_city_app/static/js/2.9c59468d.chunk.js.LICENSE.txt",
+    "static/media/about.03069004.jpg": "/vege_city_app/static/media/about.03069004.jpg",
+    "static/media/dish.4942b531.svg": "/vege_city_app/static/media/dish.4942b531.svg",
+    "static/media/eco.a336cf2d.svg": "/vege_city_app/static/media/eco.a336cf2d.svg",
+    "static/media/home.1357e4c1.png": "/vege_city_app/static/media/home.1357e4c1.png",
+    "static/media/truck.b748c9f5.svg": "/vege_city_app/static/media/truck.b748c9f5.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4dc63486.js",
+    "static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.9c59468d.chunk.js",
+    "static/css/main.98508e0d.chunk.css",
+    "static/js/main.6941e48c.chunk.js"
+  ]
+}
