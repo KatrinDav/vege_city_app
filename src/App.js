@@ -36,15 +36,15 @@ function App() {
         <Intro />
       </div>
 
-      <div data-aos="fade-up">
+      <div data-aos="fade-up" >
         <About />
       </div>
 
-      <div data-aos="fade-up">
+      <div data-aos="fade-up" >
         <Offers />
       </div>
 
-      <div data-aos="fade-up">
+      <div data-aos="fade-up" >
         <Menu />
       </div>
 
